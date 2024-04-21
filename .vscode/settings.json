@@ -1,0 +1,111 @@
+{
+    //Tema do VSCode
+    "workbench.colorTheme": "Aura Soft Dark",
+
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.sideBar.location": "left",
+    "editor.renderControlCharacters": true,
+    "window.menuBarVisibility": "classic",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": true,
+    "emmet.syntaxProfiles":{
+        "javascript": "jsx"
+    },
+    "emmet.includeLanguages":{
+        "javascript": "javascriptreact",
+    },
+    //Familia de Fontes
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 21,
+
+    // Linha vertical para quebrar linha
+    "editor.rulers": [80,120],
+    "editor.formatOnSave": false,
+
+    //Aplicar um sinal visual na esqueda da linha selecionada
+    "editor.renderLineHighlight": "gutter",
+    
+    //Tema dos icones na sidebar 
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.scale": 2,
+    "editor.tabSize": 2,
+
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+    },
+    
+    "files.associations": {
+        ".sequelizerc":"javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json"
+    },
+    "git.confirmSync": false,
+
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typearm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "typescript",
+        "fakes": "mock",
+        "websockets": "pipe",
+        "protos": "pipe",
+        "docker": "folder",
+        "grpc": "pipe"
+    },
+
+    "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune",
+        "*.proto": "3d"
+    },
+    "explorer.confirmDelete": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "explorer.confirmDragAndDrop": false,
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma",
+        "editor.formatOnSave": true
+    },
+    "settingsSync.ignoredSettings": [
+        
+
+    ],
+    "liveServer.settings.ignoreFiles": [
+
+        ".vscode/**",
+        "*/.scss",
+        "*/.sass",
+        "*/.ts"
+    ],
+    "tabnine.experimentalAutoImports": true,
+    "diffEditor.renderSideBySide": false,
+    "npm.keybindingsChangedWarningShown": true,
+    "cSpell.noSuggestDictionaries": [
+        "\"cSpell.language\": \"en,pt,pt_BR\","
+    ],
+    "cSpell.language": "en, pt-BR",
+    "editor.linkedEditing": true,
+    "editor.accessibilitySupport": "off",
+    "redhat.telemetry.enabled": true,
+    "explorer.compactFolders": false,
+    "workbench.editor.empty.hint": "hidden",
+    "livePreview.notifyOnOpenLooseFile": false,
+}
